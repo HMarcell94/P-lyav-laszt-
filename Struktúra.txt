@@ -1,0 +1,44 @@
+Pályaválasztó
+│   .gitignore
+│   Pályaválasztó.sln    
+│
+└───Pályaválasztó
+│   │   Startup.cs
+│   │   Program.cs
+│   │   appsettings.json
+│   │
+│   └───Data
+│   │   │   ApplicationDbContext.cs
+│   │
+│   └───Models
+│   │   │   Job.cs
+│   │   │   Applicant.cs
+│   │
+│   └───Services
+│   │   │   JobService.cs
+│   │   │   ApplicantService.cs
+│   │
+│   └───Pages
+│   │   │   _Host.cshtml
+│   │   │   Index.razor
+│   │   │   Error.razor
+│   │   │
+│   │   └───Jobs
+│   │   │   │   Index.razor
+│   │   │   │   Details.razor
+│   │   │
+│   │   └───Applicants
+│   │       │   Index.razor
+│   │       │   Details.razor
+│   │
+│   └───Shared
+│       │   MainLayout.razor
+│       │   NavMenu.razor
+│       │   ...
+│   
+└───Pályaválasztó.Tests
+    │   Pályaválasztó.Tests.csproj
+    │
+    └───UnitTests
+        │   JobServiceTests.cs
+        │   ApplicantServiceTests.cs
