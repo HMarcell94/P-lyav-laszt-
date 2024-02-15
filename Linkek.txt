@@ -1,0 +1,22 @@
+Profil rész:
+https://blazor.radzen.com/dialog
+
+Adatbázis szerkesztése:
+https://blazor.radzen.com/datalist
+
+Felhasználói jogosultság kezelése:
+https://blazor.radzen.com/datalist
+
+Ertesítés ki-be kapcs. button:
+https://blazor.radzen.com/toggle-button
+
+Feltöltés kép/önéletrajz:
+https://blazor.radzen.com/example-upload
+Google mapos:
+https://blazor.radzen.com/googlemap
+
+Értékelés csillagal:
+https://blazor.radzen.com/rating
+
+Időbe rakja a dolgokat.pl ettöl eddig itt dolgozott és akkor ilyen idősávba látszik:
+https://blazor.radzen.com/timeline
