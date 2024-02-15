@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palyavalaszto", "Palyavalaszto\Palyavalaszto.csproj", "{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palyavalaszto", "Palyavalaszto\Palyavalaszto.csproj", "{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_Module", "DB_Module", "{97741279-5E67-4FD0-95A0-65D60BB03C13}"
+	ProjectSection(SolutionItems) = preProject
+		SQL.cs = SQL.cs
+		_Import.cs = _Import.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_Models", "SQL_Models", "{0A0496D6-C385-49D2-BC2D-76F3168D4AFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A0496D6-C385-49D2-BC2D-76F3168D4AFF} = {97741279-5E67-4FD0-95A0-65D60BB03C13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACB36FDF-FD64-4023-A5E6-467006514F4B}

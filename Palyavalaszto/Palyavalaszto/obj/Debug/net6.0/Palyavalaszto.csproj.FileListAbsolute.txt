@@ -1,0 +1,9 @@
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.csproj.AssemblyReference.cache
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.AssemblyInfoInputs.cache
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.AssemblyInfo.cs
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.csproj.CoreCompileInputs.cache
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.RazorAssemblyInfo.cache
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.RazorAssemblyInfo.cs
+C:\Users\36702\Source\Repos\P-lyav-laszt-\Palyavalaszto\Palyavalaszto\obj\Debug\net6.0\Palyavalaszto.sourcelink.json
