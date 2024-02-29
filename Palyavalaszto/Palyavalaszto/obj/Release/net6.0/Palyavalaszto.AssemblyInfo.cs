@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Palyavalaszto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4608a5cee53bd2c8523827ac59d191ddb11de7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7125b948f0ec6d69fc47e1fed33ab07d8c7e1e2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Palyavalaszto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Palyavalaszto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

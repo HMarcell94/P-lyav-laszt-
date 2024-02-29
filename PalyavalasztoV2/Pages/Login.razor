@@ -1,0 +1,27 @@
+@page "/login"
+@layout NoSidebarLayoutLayout
+
+<PageTitle>Login</PageTitle>
+<div class="glassEffect">
+    <div class="glassEffectCentered">
+        <div class="center-content">
+            <div class="centered">
+                <div class="container-fluid">
+                            <h2 style="color: white; text-align: center;">Bejelentkezés</h2>
+                            <RadzenLogin
+                                Style="width: 400px; height: 250px; color: rgb(255, 255, 255); float: none" 
+                                class="radzen-login center-content" 
+                                        PasswordText="Jelszó" 
+                                        LoginText="Bejelentkezés" 
+                                        UserText="Felhasználónév" 
+                                        RegisterMessageText="Nincs még fiókod?" 
+                                        ResetPasswordText="Elfelejtetted a jelszavad?" 
+                                        AllowRememberMe="true" 
+                                        RememberMeText="Emlékezz rám!" 
+                                        RegisterText="Regisztráció">
+                            </RadzenLogin>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

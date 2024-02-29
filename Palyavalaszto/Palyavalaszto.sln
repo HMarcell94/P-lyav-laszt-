@@ -7,11 +7,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palyavalaszto", "Palyavalas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_Module", "DB_Module", "{97741279-5E67-4FD0-95A0-65D60BB03C13}"
 	ProjectSection(SolutionItems) = preProject
+		DB_Module.csproj = DB_Module.csproj
 		SQL.cs = SQL.cs
 		_Import.cs = _Import.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_Models", "SQL_Models", "{0A0496D6-C385-49D2-BC2D-76F3168D4AFF}"
+	ProjectSection(SolutionItems) = preProject
+		Employers.cs = Employers.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A16D6AAC-19AC-4035-A6B4-C6192A336216}"
+	ProjectSection(SolutionItems) = preProject
+		DB_Module.csproj = DB_Module.csproj
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dxvCFv/npOmb/IuqO5KvjivnKx6VKJJDBYDuoT1wo2r7Y1tVLaXN0Bn5DrVBWIorkzAx5jyPLx2tpvB/jqV9ag==",
+  "dgSpecHash": "QtEPjvVObBhyEDVlrm22FPaAMPr+OlD09D5e6BQDuGbpvlG3apCS6CXkYoFNxbyVDKXDI3RXQmMX1TC/IOdLFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\36702\\Source\\Repos\\P-lyav-laszt-\\Palyavalaszto\\Palyavalaszto\\Palyavalaszto.csproj",
+  "projectFilePath": "C:\\Users\\36702\\Desktop\\Szakdoga\\Palyavalaszto\\Palyavalaszto\\Palyavalaszto.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\36702\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\36702\\.nuget\\packages\\dartsassbuilder\\1.0.0\\dartsassbuilder.1.0.0.nupkg.sha512",
     "C:\\Users\\36702\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.25\\microsoft.aspnetcore.authorization.6.0.25.nupkg.sha512",
     "C:\\Users\\36702\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.25\\microsoft.aspnetcore.components.6.0.25.nupkg.sha512",

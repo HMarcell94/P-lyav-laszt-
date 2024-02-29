@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Palyavalaszto",
-    "\\Palyavalaszto\\Palyavalaszto",
-    "\\Palyavalaszto\\Palyavalaszto\\Pages"
+    "\\PalyavalasztoV2",
+    "\\PalyavalasztoV2\\Models",
+    "\\PalyavalasztoV2\\Models\\Main",
+    "\\PalyavalasztoV2\\Pages",
+    "\\PalyavalasztoV2\\Properties",
+    "\\PalyavalasztoV2\\Shared"
   ],
-  "SelectedNode": "\\Palyavalaszto\\Palyavalaszto\\Pages\\Login.razor",
+  "SelectedNode": "\\PalyavalasztoV2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

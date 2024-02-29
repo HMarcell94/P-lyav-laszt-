@@ -1,0 +1,482 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|c:\\users\\36702\\desktop\\szakdoga\\palyavalasztov2\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addapplication.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addapplication.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addadminrole.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addadminrole.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\data\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:data\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\employers.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\employers.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\models\\main\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:models\\main\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\models\\main\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:models\\main\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\jobs.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\jobs.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\roles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\roles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\locations.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\locations.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\supportroles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\supportroles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\userroles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\userroles.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\employees.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\employees.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\editemployee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\editemployee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\editapplication.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\editapplication.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addemployee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addemployee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\palyavalasztov2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:palyavalasztov2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addemployer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addemployer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\pages\\addapplication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9456FA0A-45EC-4E38-833F-C89EDEB93881}|PalyavalasztoV2.csproj|solutionrelative:pages\\addapplication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T11:32:13.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainContext.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Data\\MainContext.cs",
+              "RelativeDocumentMoniker": "Data\\MainContext.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Data\\MainContext.cs",
+              "RelativeToolTip": "Data\\MainContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T11:27:21.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Jobs.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Jobs.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Jobs.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Jobs.razor.cs",
+              "RelativeToolTip": "Pages\\Jobs.razor.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAYwIIAAAChAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:38:05.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employers.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Employers.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Employers.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Employers.razor.cs",
+              "RelativeToolTip": "Pages\\Employers.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:36:36.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-22T20:19:04.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAANAAAAAAAAAAAAAAwOMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-22T20:25:12.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAdminrole.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddAdminrole.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\AddAdminrole.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddAdminrole.razor.cs",
+              "RelativeToolTip": "Pages\\AddAdminrole.razor.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvzMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T11:29:35.766Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddApplication.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddApplication.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\AddApplication.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddApplication.razor.cs",
+              "RelativeToolTip": "Pages\\AddApplication.razor.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAlwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:35:46.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Locations.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Locations.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Locations.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Locations.razor.cs",
+              "RelativeToolTip": "Pages\\Locations.razor.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAA5wIEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:37:53.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Roles.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Roles.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Roles.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Roles.razor.cs",
+              "RelativeToolTip": "Pages\\Roles.razor.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAYwIwAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:33:36.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "role.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Models\\Main\\role.cs",
+              "RelativeDocumentMoniker": "Models\\Main\\role.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Models\\Main\\role.cs",
+              "RelativeToolTip": "Models\\Main\\role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:33:09.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "userrole.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Models\\Main\\userrole.cs",
+              "RelativeDocumentMoniker": "Models\\Main\\userrole.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Models\\Main\\userrole.cs",
+              "RelativeToolTip": "Models\\Main\\userrole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:28:13.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Supportroles.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Supportroles.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Supportroles.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Supportroles.razor.cs",
+              "RelativeToolTip": "Pages\\Supportroles.razor.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAYwIIAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:34:52.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Userroles.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Userroles.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Userroles.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Userroles.razor.cs",
+              "RelativeToolTip": "Pages\\Userroles.razor.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwIIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:34:41.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employees.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Employees.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Employees.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Employees.razor.cs",
+              "RelativeToolTip": "Pages\\Employees.razor.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAEwIkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:38:31.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditEmployee.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\EditEmployee.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\EditEmployee.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\EditEmployee.razor.cs",
+              "RelativeToolTip": "Pages\\EditEmployee.razor.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAUwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:45:55.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditApplication.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\EditApplication.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\EditApplication.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\EditApplication.razor.cs",
+              "RelativeToolTip": "Pages\\EditApplication.razor.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwGAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:44:38.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T08:06:26.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PalyavalasztoV2",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\PalyavalasztoV2.csproj",
+              "RelativeDocumentMoniker": "PalyavalasztoV2.csproj",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\PalyavalasztoV2.csproj",
+              "RelativeToolTip": "PalyavalasztoV2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-23T08:11:20.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T07:57:16.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:40:50.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEmployee.razor.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployee.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\AddEmployee.razor.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployee.razor.cs",
+              "RelativeToolTip": "Pages\\AddEmployee.razor.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAswHQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:29:37.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T06:28:34.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T06:42:35.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T06:40:29.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployee.razor",
+              "RelativeDocumentMoniker": "Pages\\AddEmployee.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployee.razor",
+              "RelativeToolTip": "Pages\\AddEmployee.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T06:31:30.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddEmployer.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployer.razor",
+              "RelativeDocumentMoniker": "Pages\\AddEmployer.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddEmployer.razor",
+              "RelativeToolTip": "Pages\\AddEmployer.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T06:29:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddApplication.razor",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddApplication.razor",
+              "RelativeDocumentMoniker": "Pages\\AddApplication.razor",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Szakdoga\\PalyavalasztoV2\\Pages\\AddApplication.razor",
+              "RelativeToolTip": "Pages\\AddApplication.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T06:28:17.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

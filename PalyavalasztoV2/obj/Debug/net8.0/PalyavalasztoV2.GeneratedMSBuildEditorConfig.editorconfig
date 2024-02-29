@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PalyavalasztoV2
+build_property.RootNamespace = PalyavalasztoV2
+build_property.ProjectDir = C:\Users\36702\Desktop\Szakdoga\PalyavalasztoV2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\36702\Desktop\Szakdoga\PalyavalasztoV2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddAdminrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWRtaW5yb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddApplication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRW1wbG95ZWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddEmployer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRW1wbG95ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddJob.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkSm9iLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddLocation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTG9jYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUm9sZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddSupportrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3VwcG9ydHJvbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/AddUserrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlcnJvbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditAdminrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFkbWlucm9sZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditApplication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFwcGxpY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditEmployer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditJob.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEpvYi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditLocation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdExvY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFJvbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditSupportrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN1cHBvcnRyb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/EditUserrole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFVzZXJyb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Employees.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Employers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Jobs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9icy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Locations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Roles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Supportroles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHJvbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/Userroles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnJvbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Shared/NoSidebarLayoutLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vU2lkZWJhckxheW91dExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/36702/Desktop/Szakdoga/PalyavalasztoV2/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
