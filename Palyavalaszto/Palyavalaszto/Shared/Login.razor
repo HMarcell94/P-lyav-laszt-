@@ -1,0 +1,36 @@
+﻿
+
+<RadzenCard class="rz-my-12 rz-mx-auto rz-p-4 rz-p-md-12" style="max-width: 600px;">
+    <RadzenTemplateForm Data=@("LoginWithDefaultValues")>
+        <RadzenButton Text="Test" class="loginGomb"/>
+        <RadzenLogin AllowRegister="true" AllowResetPassword="true" Username=@userName Password=@password
+                    AllowRememberMe="true" RememberMe="@rememberMe"
+                    Login=@(args => OnLogin(args))
+                    ResetPassword=@(args => OnResetPassword(args, "Login with default values"))
+                    Register=@(args => OnRegister("Login with default values"))  />
+    </RadzenTemplateForm>
+</RadzenCard>
+
+
+@code {
+    string userName = "admin";
+    string password = "admin";
+    bool rememberMe = true;
+
+
+    void OnLogin(LoginArgs args)
+    {
+       
+    }
+
+    void OnRegister(string name)
+    {
+        
+    }
+
+    void OnResetPassword(string value, string name)
+    {
+        
+    }
+}
+

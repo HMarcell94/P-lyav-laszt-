@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PalyavalasztoV2.props" />
+</Project>

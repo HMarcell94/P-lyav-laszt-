@@ -1,0 +1,158 @@
+@page "/employers"
+
+<PageTitle>employers</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="employers" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" aria-label="Search by all string columns" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  Render=Grid0Render AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@employers" TItem="PalyavalsztoV3.Models.main.employer" RowDoubleClick="@EditRow" RowSelect="@GetChildData">
+            <Columns>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="id" Title="id">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="Name" Title="Name">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="Description" Title="Description">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="PasswordHash" Title="Password Hash">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="RoleId" Title="Role Id">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Property="LocationId" Title="Location Id">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employer" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="employer">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, employer)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+                <RadzenStack Class="rz-my-8">
+                    <RadzenRow Gap="0" AlignItems="AlignItems.Center">
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenText Visible="@(employer != null)" Text="employees" TextStyle="TextStyle.H4" TagName="TagName.H2" style="margin: 0" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                                <RadzenButton Visible="@(employer != null)" Icon="add_circle_outline" Text="Add" Click=@(args => employeesAddButtonClick(args,employer)) />
+                            </RadzenStack>
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenDataGrid ColumnWidth="200px" Visible="@(employer != null)" @ref=employeesDataGrid AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+                      Data="@employer?.employees" TItem="PalyavalsztoV3.Models.main.employee"  RowSelect="@(args => employeesRowSelect(args, employer))">
+                      <Columns>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="employer.Name" Title="employer">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="userrole" Title="userrole">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="adminrole" Title="adminrole">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="Name" Title="Name">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="Skills" Title="Skills">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="PasswordHash" Title="Password Hash">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="role.RoleName" Title="role">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Property="location.Address" Title="location">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.employee" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                            <Template Context="employeeChild">
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium" Shade="Shade.Lighter" Variant="Variant.Flat"
+                                    Click=@(args => employeesDeleteButtonClick(args, employeeChild)) @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+                      </Columns>
+                    </RadzenDataGrid>
+                </RadzenStack>
+                <RadzenStack Class="rz-my-8">
+                    <RadzenRow Gap="0" AlignItems="AlignItems.Center">
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenText Visible="@(employer != null)" Text="jobs" TextStyle="TextStyle.H4" TagName="TagName.H2" style="margin: 0" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                                <RadzenButton Visible="@(employer != null)" Icon="add_circle_outline" Text="Add" Click=@(args => jobsAddButtonClick(args,employer)) />
+                            </RadzenStack>
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenDataGrid ColumnWidth="200px" Visible="@(employer != null)" @ref=jobsDataGrid AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+                      Data="@employer?.jobs" TItem="PalyavalsztoV3.Models.main.job"  RowSelect="@(args => jobsRowSelect(args, employer))">
+                      <Columns>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Property="JobID" Title="Job I D">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Property="employer.Name" Title="employer">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Property="Title" Title="Title">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Property="Description" Title="Description">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Property="LocationId" Title="Location Id">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.job" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                            <Template Context="jobChild">
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium" Shade="Shade.Lighter" Variant="Variant.Flat"
+                                    Click=@(args => jobsDeleteButtonClick(args, jobChild)) @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+                      </Columns>
+                    </RadzenDataGrid>
+                </RadzenStack>
+                <RadzenStack Class="rz-my-8">
+                    <RadzenRow Gap="0" AlignItems="AlignItems.Center">
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenText Visible="@(employer != null)" Text="users" TextStyle="TextStyle.H4" TagName="TagName.H2" style="margin: 0" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" SizeMD="6">
+                            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                                <RadzenButton Visible="@(employer != null)" Icon="add_circle_outline" Text="Add" Click=@(args => usersAddButtonClick(args,employer)) />
+                            </RadzenStack>
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenDataGrid ColumnWidth="200px" Visible="@(employer != null)" @ref=usersDataGrid AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+                      Data="@employer?.users" TItem="PalyavalsztoV3.Models.main.user"  RowSelect="@(args => usersRowSelect(args, employer))">
+                      <Columns>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="id" Title="id">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="username" Title="username">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="password" Title="password">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="email" Title="email">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="employee.Name" Title="employee">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Property="employer.Name" Title="employer">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="PalyavalsztoV3.Models.main.user" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                            <Template Context="userChild">
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium" Shade="Shade.Lighter" Variant="Variant.Flat"
+                                    Click=@(args => usersDeleteButtonClick(args, userChild)) @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+                      </Columns>
+                    </RadzenDataGrid>
+                </RadzenStack>
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

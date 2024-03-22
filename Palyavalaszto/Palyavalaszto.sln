@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palyavalaszto", "Palyavalaszto\Palyavalaszto.csproj", "{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_Module", "DB_Module", "{97741279-5E67-4FD0-95A0-65D60BB03C13}"
+	ProjectSection(SolutionItems) = preProject
+		DB_Module.csproj = DB_Module.csproj
+		SQL.cs = SQL.cs
+		_Import.cs = _Import.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_Models", "SQL_Models", "{0A0496D6-C385-49D2-BC2D-76F3168D4AFF}"
+	ProjectSection(SolutionItems) = preProject
+		Employers.cs = Employers.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A16D6AAC-19AC-4035-A6B4-C6192A336216}"
+	ProjectSection(SolutionItems) = preProject
+		DB_Module.csproj = DB_Module.csproj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F36A419-D0C8-45CE-A8B2-174C5033BA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A0496D6-C385-49D2-BC2D-76F3168D4AFF} = {97741279-5E67-4FD0-95A0-65D60BB03C13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACB36FDF-FD64-4023-A5E6-467006514F4B}
+	EndGlobalSection
+EndGlobal

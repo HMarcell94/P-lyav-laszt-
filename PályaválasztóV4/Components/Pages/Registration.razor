@@ -1,0 +1,43 @@
+
+@page "/registration"
+@layout NoSidebarLayoutLayout
+
+<PageTitle>Registration</PageTitle>
+<div class="glassEffect">
+    <div class="glassEffectCentered">
+        <div class="center-content">
+            <div class="centered">
+                            <h2 style="color: white; text-align: center; margin-top: 150px;">Regisztráció</h2>
+                            <div class="rz-p-12 rz-text-align-center width:20px">
+                                    <RadzenTextBox 
+                                        Value=@username 
+                                        Change=@(args => username = args) 
+                                        aria-label="enter username" 
+                                        class="radzen-password" 
+                                        Placeholder="Felhasználónév" Style="width: 400px; text-align: center" />
+
+                                    <RadzenPassword 
+                                        Value=@password 
+                                        Change=@(args => password = args) 
+                                        aria-label="enter password" 
+                                        class="radzen-password" 
+                                        Placeholder="Jelszó" Style="width: 400px; text-align: center" />
+
+                                    <RadzenPassword 
+                                        Value=@passwordAgain 
+                                        Change=@(args => passwordAgain = args) 
+                                        aria-label="enter password again" 
+                                        class="radzen-password" 
+                                        Placeholder="Jelszó ismét" Style="width: 400px; text-align: center" />
+                                <RadzenButton Style="width: 147px; height: 31px; background-color:crimson" Text="Regisztrálok"></RadzenButton>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+@code{
+    string username;
+    string password;
+    string passwordAgain;
+}
