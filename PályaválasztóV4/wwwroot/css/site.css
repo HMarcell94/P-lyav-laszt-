@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*------------------------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  grid-gap: 10px;
+}
+
+.component {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.image-container {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-container {
+  width: 100%;
+  height: 50%;
+  padding: 0px;
+}
+
+.content-container h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.content-container p {
+  margin-bottom: 0;
+}
+
+/*------------------------------*/
+
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+}
+
+@keyframes floatDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -27,10 +97,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: white;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
 }
+
 .radzen-login input[type="text"], .radzen-login input[type="password"], .radzen-login input[type="email"] {
     background: rgba( 255, 255, 255, 0.25 ) !important;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
@@ -60,15 +132,312 @@
     margin-bottom: 10px;
 }
 
+/*------------------------------*/
+
+.btn-6 {
+  display: block;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  justify-content: flex-end;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: right;
+  position: relative;
+  transition: all .35s;
+}
+.btn-6:after {
+  position: absolute;
+  content: "Bejelentkezés!";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #ff003b;
+  transition: all .35s;
+}
+.btn-6:hover {
+  color: #fff;
+  border-radius: 10px;
+}
+.btn-6:hover:after {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*------------------------------*/
+
+.btn-7 {
+  display: block;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  justify-content: flex-end;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: right;
+  position: relative;
+  transition: all .35s;
+}
+.btn-7:after {
+  position: absolute;
+  content: "Regisztráció!";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #ff003b;
+  transition: all .35s;
+}
+.btn-7:hover {
+  color: #fff;
+  border-radius: 10px;
+}
+.btn-7:hover:after {
+  width: 100%;
+  border-radius: 10px;
+}
+/*------------------------------*/
+.btnAnimation {
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+  icon: center;
+  position: relative;
+  transition: all .35s;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.btnAnimation:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background-color: red !important;
+  transition: all .35s;
+}
+.btnAnimation:hover {
+  border-radius: 10px;
+
+}
+.btnAnimation:hover:after {
+  width: 100%;
+  border-radius: 10px;
+  background-color: red !important;
+}
+/*------------------------------*/
+
+.menu-option {
+    color: white !important;
+    width: auto; /* Automatikus szélesség a tartalomhoz igazodva */
+    height: 23px;
+    flex: 0.2; /* Az elemek egyenlő helyet foglalnak el a szülőben */
+    text-align: center right; /* A szöveg középre igazítása */
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-option:hover {
+    color: red!important;
+    transform: scale(1.1);
+}
+
+/* Reszponzív stílusok */
+@media (max-width: 600px) {
+    .menu-option {
+        font-size: 14px; /* Kisebb betűméret a kisebb képernyőkön */
+        width: auto;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+  .menu-option {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-option {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-option {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu-option {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu-option {
+    margin: 20px 10px;
+  }
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navButtons ul, a {
+    width 100%;
+    margin: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.navButtons a {
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.navButtons a:hover{
+    background-color: red;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: red;
+    border-color: red;
+}
+
 .centered {
     position: absolute;
-    top: 30%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+@media (min-width: 601px) {
+    .navButtons a {
+        flex: 1 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .navButtons {
+        display: none;
+        flex-direction: column;
+    }
+    .navButtons a {
+        width: 100%;
+    }
+    .navButtons.show {
+        display: flex;
+    }
+}
+
+
+
+/*
+@keyframes SlideIn {
+  from {
+      transform: translateY(-300px);
+  }
+  to {
+      transform: translateY(0);
+  }
+} */
+
+/*-----------------------------------*/
+.logopulse {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(logo.ico);
+  animation: scale 1s ease alternate-reverse infinite;
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1.2);
+  }
+}
+/*-----------------------------------*/
+
+.transparent-scrollbar {
+  --scrollbar-width: 0.05rem;
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: transparent;
+
+}
+
+.transparent-scrollbar::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+}
+
+/*-----------------------------------*/
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: black;
+}
+body::-webkit-scrollbar-thumb{
+  background: #e60000;
+}
+
+.scrollbar {
+  --scrollbar-width: 0.25rem;
+  --scrollbar-track-color: black;
+  --scrollbar-thumb-color: #e60000;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+}
+
+
+.mySidebar {
+    width: 15rem;
+    height: 100%;
+    position: fixed;
+}
+
+body.body-navbar {
+  margin-top: 0px;
+}
+
 body {
-    font-family: var(--rz-text-font-family);
+    font-family: 'Oswald', sans-serif;
     color: var(--rz-text-color);
     font-size: var(--rz-body-font-size);
     line-height: var(--rz-body-line-height);
@@ -79,6 +448,16 @@ body {
     background-attachment: fixed!important;
     margin: 0;
     padding: 0;
+}
+
+body .NoSidebarLayoutLayout {
+  margin: 0px !important;
+}
+
+body .MainLayout {
+  margin-top: 10px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 @media (max-width: 600px) {
@@ -94,6 +473,14 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.Logo {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  width: 150px;
+  height: 150px;
 }
 
 .row {
@@ -130,7 +517,7 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.42);
-    margin: 20px 250px;
+    margin: 0px 250px;
     min-width: 400px;
     min-height: 250px;
 }
@@ -167,6 +554,69 @@ body {
 
 @media (min-width: 1400px) {
   .glassEffect {
+    margin: 20px 250px;
+  }
+}
+
+.MultiGlassEffect {
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  margin-left: 0px!important;
+}
+
+.glassEffectnavbar {
+    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    margin: 0px 250px;
+    min-width: 400px;
+    min-height: 250px;
+    margin-top: 0px !important;
+}
+
+@media (max-width: 576px) {
+  .glassEffectnavbar {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .glassEffectnavbar {
+    margin: 20px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .glassEffectnavbar {
+    margin: 20px 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .glassEffectnavbar {
+    margin: 20px 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .glassEffectnavbar {
+    margin: 20px 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .glassEffectnavbar {
     margin: 20px 250px;
   }
 }

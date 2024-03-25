@@ -1,31 +1,96 @@
 @page "/"
-<PageTitle>Index</PageTitle>
+
+<PageTitle>Pályaválasztó</PageTitle>
+
 <RadzenRow Gap="5" RowGap="5">
     <RadzenColumn Size="12">
-        <RadzenText Text="Welcome to your new app" TextStyle="Radzen.Blazor.TextStyle.DisplayH2" TagName="Radzen.Blazor.TagName.Auto"></RadzenText>
-        <RadzenText Text="Your Success Is Our Biggest Priority" TextStyle="Radzen.Blazor.TextStyle.H4" TagName="Radzen.Blazor.TagName.H2" class="mt-5"></RadzenText>
-        <RadzenText Text="With Radzen Blazor Studio, application development is just one-click away." TextStyle="Radzen.Blazor.TextStyle.Body1" TagName="Radzen.Blazor.TagName.Auto" class="mt-4" Style="font-size: 20px; line-height: 24px"></RadzenText>
-        <RadzenText Text="Simple to setup, maintain and update." TextStyle="Radzen.Blazor.TextStyle.Body1" TagName="Radzen.Blazor.TagName.Auto" class="mt-3" Style="font-size: 20px; line-height: 24px"></RadzenText>
-        <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
-            <RadzenRow>
-                <RadzenColumn Size="12" SizeMD="4">
-                    <RadzenIcon Icon="smart_button" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-                    <RadzenText Text="Learn the Fundamentals" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-                    <RadzenLink Text="Docs" Path="https://www.radzen.com/blazor-studio/documentation/" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-                    <RadzenLink Text="Videos" Path="https://youtube.com/playlist?list=PLQyJPeb3xHcBij_RbHD__2TOo8Jv5HQVc" Icon="east" Target="_blank" Style="display: block; font-size: 18px"></RadzenLink>
-                </RadzenColumn>
-                <RadzenColumn Size="12" SizeMD="4">
-                    <RadzenIcon Icon="code" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-                    <RadzenText Text="Radzen Blazor Components" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-                    <RadzenLink Text="Demos" Path="https://blazor.radzen.com" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-                </RadzenColumn>
-                <RadzenColumn Size="12" SizeMD="4">
-                    <RadzenIcon Icon="people_outline" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-                    <RadzenText Text="Radzen Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-                    <RadzenLink Text="Radzen Blazor Studio Forums" Path="https://forum.radzen.com/c/radzen-blazor-studio/12" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-                </RadzenColumn>
-            </RadzenRow>
-        </RadzenCard>
+            <RadzenHead>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+            </RadzenHead>
+
+                <div Style="background-color: black; radius: 15px; text-align: center;">
+                 <a Style="text-align: center;" content="Keresés:">Keresés:</a>
+                </div>
+
+                <RadzenBody>
+                    <style>
+                        .btn-8, .btn-9 {
+                            width: 250px;
+                            margin-left: 5px;
+                            float: right;
+                            font-size: 16px;
+                            padding: 5px;
+                        }
+                        .job-search-container {
+                            padding: 4rem;
+                        }
+                        .job-search-header {
+                            text-align: center;
+                        }
+                        h1.oswald-uniquifier, h2, h3 {
+                            font-family: 'Oswald', sans-serif;
+                            color: white;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color: white;
+                        }
+                    </style>
+                    <div class="rz-p-4 job-search-container">
+                        <div class="job-search-header">
+                            <img>
+                            <h1 class="oswald-uniquifier">A Személyes Fejlődés Útja</h1>
+                            <h2>Fedezd Fel Rejtett Tehetséged!</h2>
+                            <h3>Az álláskeresés motivációja</h3>
+                            <p>Az álláskeresés során fontos, hogy legyen benned a tűz, a motiváció és az ambíció, hogy felelősséget vállalj az életedért, és fel akarsz nőni. Ezért fontos, hogy te ne elégedj meg a kevéssel, hanem törekedj a többre.</p>
+                            <h3>Tehetségfelfedezés</h3>
+                            <p>Próbálj meg leülni, hátradőlni és figyelni azokra a kis dolgokra, amelyeket eddig nem vettél észre, de összeérhetnek és új utakat nyithatnak meg előtted. Gondolkozz el azon, miben vagy ösztönösen tehetséges, de soha nem figyeltél rá oda, mert csak hobbinak tartottad. Ha nincs ilyen, próbáld ki azokat a dolgokat, amelyek érdekesnek tűnnek számodra.</p>
+                            <h3>Elköteleződés és önismeret</h3>
+                            <p>A feladatod, hogy találj egy munkát, amely mellett elkötelezed magad, és kitartasz mellette. Nem biztos, hogy ezt fogod csinálni az életed végéig, de ezek a lépések részei a te utadnak. Fontos, hogy bátor legyél döntéseket hozni és bízz magadban. Ha nem bízol magadban, akkor kezdj el foglalkozni önismerettel. Ismerd meg, ki vagy, hogyan reagálsz a világra, milyen félelmeid és fóbiáid vannak.</p>
+                        </div>
+                    </div>
+                </RadzenBody>    
     </RadzenColumn>
 </RadzenRow>
+<!--
+@code {
+  private string KeresesMezo { get; set; } = "";
+  private string Megkozelites { get; set; } = "";
+  private string Szakirany { get; set; } = "";
+  private List<Allas> Allasok { get; set; } = new List<Allas>();
 
+  protected override void OnInitialized()
+  {
+    // Példa adatok betöltése
+    Allasok.Add(new Allas { Cim = "Szoftverfejlesztő", Leiras = "C#-ban jártas fejlesztőket keresünk..." });
+    Allasok.Add(new Allas { Cim = "Marketinges", Leiras = "Kommunikatív és kreatív marketinges kollégát keresünk..." });
+    Allasok.Add(new Allas { Cim = "Pénzügyi asszisztens", Leiras = "Pontos és precíz pénzügyi asszisztenst keresünk..." });
+  }
+
+  private void Kereses()
+  {
+    // Keresés a megadott paraméterek alapján
+    // ...
+
+    // A keresés eredményének frissítése
+    Allasok = GetSzurtAllasok(KeresesMezo, Megkozelites, Szakirany);
+  }
+
+  private List<Allas> GetSzurtAllasok(string keresesiMezo, string megkozelites, string szakirany)
+  {
+    // Itt kell implementálni a szűrést
+    // ...
+
+    return Allasok;
+  }
+
+  public class Allas
+  {
+    public string Cim { get; set; }
+    public string Leiras { get; set; }
+  }
+}
+-->

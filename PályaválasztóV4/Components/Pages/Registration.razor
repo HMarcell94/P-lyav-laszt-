@@ -3,41 +3,46 @@
 @layout NoSidebarLayoutLayout
 
 <PageTitle>Registration</PageTitle>
-<div class="glassEffect">
-    <div class="glassEffectCentered">
-        <div class="center-content">
-            <div class="centered">
-                            <h2 style="color: white; text-align: center; margin-top: 150px;">Regisztráció</h2>
-                            <div class="rz-p-12 rz-text-align-center width:20px">
+
+
+
+<div class="MultiGlassEffect" style="justify-content: center; text-align: center; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; align-items: center; margin-left: 0px; margin-top: 0px; width: 50%; height: 100vh; float: right">
+    <h2 style="margin-top: 30px; color: white; text-align: center; ">Regisztráció</h2>
+        <div style="margin: auto; margin-top: 20%; width: 400px; height: 50vh; background-color: transparent; padding: auto;">
                                     <RadzenTextBox 
-                                        Value=@username 
-                                        Change=@(args => username = args) 
+                                        @bind-Value="username"
                                         aria-label="enter username" 
                                         class="radzen-password" 
-                                        Placeholder="Felhasználónév" Style="width: 400px; text-align: center" />
-
+                                        Placeholder="Email" Style="width: 400px; text-align: center; color: #000000" />
                                     <RadzenPassword 
-                                        Value=@password 
-                                        Change=@(args => password = args) 
+                                        @bind-Value="password"
                                         aria-label="enter password" 
                                         class="radzen-password" 
-                                        Placeholder="Jelszó" Style="width: 400px; text-align: center" />
-
+                                        Placeholder="Jelszó" Style="width: 400px; text-align: center; color: #000000" />
                                     <RadzenPassword 
-                                        Value=@passwordAgain 
-                                        Change=@(args => passwordAgain = args) 
+                                        @bind-Value="passwordAgain" 
                                         aria-label="enter password again" 
                                         class="radzen-password" 
-                                        Placeholder="Jelszó ismét" Style="width: 400px; text-align: center" />
-                                <RadzenButton Style="width: 147px; height: 31px; background-color:crimson" Text="Regisztrálok"></RadzenButton>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                        Placeholder="Jelszó ismét" Style="width: 400px; text-align: center; color: #000000; border: 1px solid rgba(0, 0, 0, 0.18)" />
+
+                                    <div class="rz-p-12 rz-text-align-center">
+                                        <RadzenCheckBox @bind-Value=@value Name="CheckBox1" />
+                                        <RadzenLabel Text="Munkáltatóként regisztrálok." Component="CheckBox1" Style="margin-top: 5px; margin-left: 8px; vertical-align: middle;" />
+                                    </div>
+
+                <RadzenButton Style="width: 147px; height: 31px; background-color:crimson" Text="Regisztrálok" Click="@_Registration" class="btnAnimation"></RadzenButton>
+        </div>
+</div>
+
+<div class="logopulse center-content">
+    <RadzenImage @onclick="NavigateToMain" Path="favicon.ico" Style="justify-content: center; text-align: center; width: 150px; height: 150px;"></RadzenImage>
 </div>
 
 @code{
-    string username;
-    string password;
-    string passwordAgain;
+    bool value;
+
+    private void NavigateToMain() //Főoldalra
+    {
+        NavigationManager.NavigateTo(" ");
+    }
 }

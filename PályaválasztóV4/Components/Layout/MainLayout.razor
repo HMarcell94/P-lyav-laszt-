@@ -1,52 +1,145 @@
 @inherits LayoutComponentBase
-<RadzenComponents />
+@inject NavigationManager NavigationManager
 
-<RadzenLayout Style="grid-template-areas: 'rz-sidebar rz-header' 'rz-sidebar rz-body'; background-image: url('/images/hatter.jpg')!important; background-size: cover!important; background-position: center!important; background-repeat: no-repeat!important; background-attachment: fixed!important;">
-    <RadzenHeader Style="background: rgba(255, 255, 255, 0.19); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.42);">
 
-        <RadzenRow JustifyContent="JustifyContent.Start" AlignItems="AlignItems.Center" Gap="0">
-
-            <RadzenColumn Size="4" Style="color: #d80000">
-                <RadzenSidebarToggle Click="@SidebarToggleClick" Style="border: 0px none #ff0000; color: #ff0000; background-color: rgba(255, 255, 255, 0);"></RadzenSidebarToggle>
-                <a href="palyavalaszto_url" style="color: white;">Pályaválasztó</a>
-                <a href="allasajanlatok_url" style="color: white;">Állásajánlatok</a>
-                <a href="blog_url" style="color: white;">Blog</a>
-                <a href="kapcsolat_url" style="color: white;">Kapcsolat</a>
-            </RadzenColumn>
-            
-            <RadzenColumn Size="7">
-                <RadzenStack AlignItems="AlignItems.Center" Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" Style="color: #e80000"></RadzenStack>
-            </RadzenColumn>
-
-        </RadzenRow>
+<RadzenLayout Class="scrollbar" Style="grid-template-areas: 'rz-sidebar' 'rz-sidebar rz-body'; background-color: transparent;">
+    <RadzenHeader Style="margin-top: 10px; margin-left:15px; margin-right:15px; background: rgba(255, 255, 255, 0.19); border-radius: 13px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.42);">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0" Style="display: flex; justify-content: space-between; align-items: center;">
+                <RadzenSidebarToggle Click="@(() => sidebarExpanded = !sidebarExpanded)" Style="top: 0px; border: 0px none #ff0000; color: #ff0000; background-color: rgba(255, 255, 255, 0);"/>
+                    <nav class="centered " style="display: flex; justify-content: space-between; align-items: center; width: 904px; height: 41px">
+                        <ul><a href=EmployeeProfile class="profile-pic">
+                            <img src="profilkep.jpg" alt="Profilkép" /> <!-- Ide írd be a profil képed elérési útját -->
+                        </a></ul>
+                        <ul><a href=Hirdetesek class="menu-option">Állásajánlatok</a></ul>
+                        <ul><a href=Blog class="menu-option">Blog</a></ul>
+                        <ul><a href=Kapcsolat class="menu-option">Kapcsolat</a></ul>
+                        <ul><a href=oneletrajz class="menu-option">Önéletrajz</a></ul>
+                        <ul Style="justify-content: center;"><a href=Login class="btn-6"  Style="margin: 5px; width: 120px; background-color: #831eff; float: none; text-align: center; color: #ffffff"></a></ul>
+                        <ul><a href=Registration class="btn-7"  Style="margin: 5px; width: 120px; float: none; text-align: center; background-color: #7d13ff; color: #ffffff"></a></ul>
+                    </nav>
+            </RadzenStack>
     </RadzenHeader>
 
-    <RadzenBody Expanded="@sidebarExpanded">
-        <RadzenRow class="rz-mx-auto rz-px-4 rz-pt-2 rz-pt-md-4 rz-pt-lg-6 rz-pt-xl-12 rz-pb-2 rz-pb-lg-12" Style="max-width: 1440px;">
-            <RadzenColumn Size="12">
-            @Body
-            </RadzenColumn>
-        </RadzenRow>
+    <RadzenBody class="transparent-scrollbar">
+        @Body
     </RadzenBody>
 
-     <RadzenSidebar Expanded="@sidebarExpanded" Style="background: rgba(255, 255, 255, 0.19); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.42); color: white;">
-     <RadzenStack AlignItems="Radzen.AlignItems.Center" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding); border-bottom: var(--rz-panel-menu-item-border);">
-         <RadzenImage   Path="images/logo.ico" style="width: 72px; height: 68px" AlternateText="Application logo"></RadzenImage>
-         <RadzenText Text="PalyavalasztoV4" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" class="rz-mb-0" style="color: #ffffff; background-color: rgba(255, 255, 255, 0); border: 0px none #ffffff" />
-        </RadzenStack>
-        <RadzenPanelMenu Style="color: #ffffff; background-color: #e60000; border-radius: 16px; text-align: center; border: 0px none #797979">
-            <RadzenPanelMenuItem Text="Home" Path="" />
-            <RadzenPanelMenuItem Text="applications" Path="applications" />
-            <RadzenPanelMenuItem Text="employees" Path="employees" />
-            <RadzenPanelMenuItem Text="employers" Path="employers" />
-            <RadzenPanelMenuItem Text="jobs" Path="jobs" />
-            <RadzenPanelMenuItem Text="roles" Path="roles" />
-            <RadzenPanelMenuItem Text="users" Path="users" />
-            <RadzenPanelMenuItem Text="Login" Path="login" />
-        </RadzenPanelMenu>
-        <RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="0" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding);">
-            <RadzenText Text="PalyavalsztoV4 v1.0.0" TextStyle="Radzen.Blazor.TextStyle.Caption" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
-            <RadzenText Text="Copyright Ⓒ 2024" TextStyle="Radzen.Blazor.TextStyle.Caption" class="rz-mb-0" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
-        </RadzenStack>
+<!--A navbar elemei-->
+    <RadzenSidebar class="body-navbar transparent-scrollbar" Responsive="true" @bind-Expanded="@sidebarExpanded" Style="margin-top: 10px; margin-left: 15px; background: rgba(255, 255, 255, 0.19); border-radius: 13px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.42);">
+<!--Ez a rész a navbar kinézetét-->
+
+<!--Ez a rész a navbar-ban található Logót és Címet tartalmazza-->
+            <RadzenStack Class="RadzenPanelMenu a; RadzenPanelMenu a:hover; rz-py-4 rz-py-lg-6" AlignItems="Radzen.AlignItems.Center" Style="padding: var(--rz-panel-menu-item-padding); border-bottom: var(--rz-panel-menu-item-border);">
+                <RadzenImage @onclick="NavigateToMain" Path="images/logo.ico" class="Logo" AlternateText="Application logo"></RadzenImage>
+                <RadzenText Text="PalyavalasztoV4" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" class="rz-mb-0" style="color: #ffffff; background-color: rgba(255, 255, 255, 0); border: 0px none #ffffff" />
+            </RadzenStack>
+<!--Ez a rész a navbar elemeit tartalmazza-->
+            <RadzenPanelMenu Class="btnAnimation" Style="background-color: #ff0000; color: #272727; font-weight: bold">
+                <RadzenPanelMenuItem Path="Hirdetesek" Class="btnAnimation" Text="Állásajánlatok" Icon="work" />
+                <RadzenPanelMenuItem Path="blog" Class="btnAnimation" Text="Blog" Icon="rss_feed" />
+                <RadzenPanelMenuItem Path="kapcsolat" Class="btnAnimation" Text="Kapcsolat" Icon="mail" />
+                <RadzenPanelMenuItem Path="oneletrajz" Class="btnAnimation" Text="Önéletrajz" Icon="account_circle" />
+                <RadzenPanelMenuItem Text="Registration-co" Path="registrationco" />
+                <RadzenPanelMenuItem Text="RegistrationUser" Path="registration-user" />
+            </RadzenPanelMenu>
+<!--Ez a rész a navbar láblécét tartalmazza-->
+            <RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="0" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding);">
+                <RadzenText Text="PalyavalsztoV4 v1.0.0" TextStyle="Radzen.Blazor.TextStyle.Caption" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+                <RadzenText Text="Copyright Ⓒ 2024" TextStyle="Radzen.Blazor.TextStyle.Caption" class="rz-mb-0" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+            </RadzenStack>
+
     </RadzenSidebar>
+<!--Ez a rész a főoldal tartalma-->
+
 </RadzenLayout>
+
+
+<!--
+    A Blazor alkalmazásokban a navigációs logikát általában a komponensekben helyezzük el, 
+    amelyek a Pages mappában találhatók. Ha már van egy meglévő oldala, ahol szeretné használni 
+    ezt a navigációs logikát, akkor hozzáadhatja a kódot az adott oldal .razor fájljához.
+Például, ha van egy Index.razor oldala, akkor a következőképpen nézhet ki a kód:
+
+@page "/"
+@inject NavigationManager NavigationManager
+
+<h1>Welcome to my site!</h1>
+
+<button @onclick="NavigateToPage2">Go to Page 2</button>
+
+@code {
+    private void NavigateToPage2()
+    {
+        NavigationManager.NavigateTo("/page2");
+    }
+}
+
+Ez a kód hozzáad egy gombot az Index oldalhoz, amely a “Page2” oldalra navigál, amikor rákattintanak.
+
+Ha szeretné ezt a navigációs logikát több oldalon is használni, akkor érdemes lehet létrehozni egy új komponenst, 
+amely tartalmazza ezt a logikát, és ezt a komponenst használni az oldalakon. Ezt a komponenst a Shared mappában helyezheti el.
+-->
+@code {
+
+    bool sidebarExpanded = false;
+
+    protected override void OnInitialized() {
+                base.OnInitialized();
+    }
+
+    private void NavigateToMain() //Főoldalra
+    {
+        NavigationManager.NavigateTo(" ");
+    }
+
+    private void NavigateToAllasajanlatok() //Hirdetések
+    {
+        NavigationManager.NavigateTo("Hirdetesek");
+    }
+
+    private void NavigateToBlog() //Főoldalra
+    {
+        NavigationManager.NavigateTo("blog");
+    }
+
+    private void NavigateToKapcsolat() //Főoldalra
+    {
+        NavigationManager.NavigateTo("kapcsolat");
+    }
+
+    private void NavigateToOneletrajz() //Főoldalra
+    {
+        NavigationManager.NavigateTo("oneletrajz");
+    }
+
+    private void NavigateToRegistrationCo() //Főoldalra
+    {
+        NavigationManager.NavigateTo("registrationco");
+    }
+
+    private void NavigateToRegistrationUser() //Főoldalra
+    {
+        NavigationManager.NavigateTo("registration-user");
+    }
+
+    private void NavigateToEmployeeProfile() //Főoldalra
+    {
+        NavigationManager.NavigateTo("EmployeeProfile");
+    }
+
+    private void NavigateToHirdetesek() //Főoldalra
+    {
+        NavigationManager.NavigateTo("Hirdetesek");
+    }
+
+    private void NavigateToLogin() //Főoldalra
+    {
+        NavigationManager.NavigateTo("Login");
+    }
+
+    private void NavigateToRegistration() //Főoldalra
+    {
+        NavigationManager.NavigateTo("Registration");
+    }
+ 
+}

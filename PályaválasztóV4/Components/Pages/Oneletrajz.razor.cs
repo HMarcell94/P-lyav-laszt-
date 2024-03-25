@@ -10,7 +10,7 @@ using Radzen.Blazor;
 
 namespace PalyavalsztoV4.Components.Pages
 {
-    public partial class Registration
+    public partial class Oneletrajz
     {
         [Inject]
         protected IJSRuntime JSRuntime { get; set; }
@@ -29,14 +29,5 @@ namespace PalyavalsztoV4.Components.Pages
 
         [Inject]
         protected NotificationService NotificationService { get; set; }
-
-        string username;
-        string password;
-        string passwordAgain;
-
-        async Task _Registration()
-        {
-
-        }
     }
 }

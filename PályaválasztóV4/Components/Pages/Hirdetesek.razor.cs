@@ -1,18 +1,16 @@
-using System.Net.Http;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Components.Routing;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.Web.Virtualization;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 using Radzen;
 using Radzen.Blazor;
 
-namespace PalyavalsztoV4.Components.Layout
+namespace PalyavalsztoV4.Components.Pages
 {
-    public partial class MainLayout
+    public partial class Hirdetesek
     {
         [Inject]
         protected IJSRuntime JSRuntime { get; set; }
@@ -31,12 +29,5 @@ namespace PalyavalsztoV4.Components.Layout
 
         [Inject]
         protected NotificationService NotificationService { get; set; }
-
-        private bool sidebarExpanded = true;
-
-        void SidebarToggleClick()
-        {
-            sidebarExpanded = !sidebarExpanded;
-        }
     }
 }
